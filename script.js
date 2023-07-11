@@ -29,11 +29,10 @@ changePcontent();
          */
 
 const changeUrls = function () {
-  const cambiaLink = document.querySelectorAll("#Sezione2 a");
+  const cambiaLink = document.querySelectorAll("a");
   console.log(cambiaLink);
   cambiaLink.forEach((x) => {
     x.href = "https://www.google.com";
-    x.innerText = "Adesso vado a GOOGLE!!!!";
   });
 };
 changeUrls();
